@@ -1,0 +1,38 @@
+.rooms-container {
+  padding: 20px;
+}
+
+.room-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.availability-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+.day-tab {
+  padding: 6px 10px;
+  border-radius: 8px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  min-width: 45px;
+}
+
+.day-tab.available {
+  background-color: green;
+}
+
+.day-tab.booked {
+  background-color: red;
+}
+
+.booked-date {
+  background-color: #ccc !important;
+  pointer-events: none;
+}
